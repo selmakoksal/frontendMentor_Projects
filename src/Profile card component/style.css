@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    height: 25vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat no-repeat;
+    background-attachment: fixed;
+    background-position: right 55vw bottom 35vh, left 50vw top 52vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+main {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-top {
+    background-image: url(./images/bg-pattern-card.svg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    width: 400px;
+    height: 150px;
+}
+
+.main-card {
+    width: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.divider {
+    border: .01rem solid rgb(211, 211, 211);
+}
+
+.count-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+h3 {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+p, span {
+    color: hsl(0, 0%, 59%);
+}
+
+span {
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.country {
+    font-weight: 400;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+.likes-count h3 {
+    margin-bottom: -14px;
+    font-weight: 700;
+}
+
+.likes-count {
+    margin-top: -11px;
+    margin-bottom: -11px;
+}
+
+img {
+    border-radius: 50%;
+    border: 7px solid whitesmoke;
+    margin-top: -60px;
+    width: 120px;
+    height: 120px;
+}
+
+@media screen and (max-width:570px) {
+    main, .wrapper, .card-top, .main-card {
+        width: 390px;
+    }
+
+    .card-top {
+        background-image: url(./images/bg-pattern-card.svg);
+        width: 390px;
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
