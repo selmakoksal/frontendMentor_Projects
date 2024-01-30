@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
+.attribution {
+    position: fixed;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.3;
+    padding: 0.5rem;
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 body {
     background-color: hsla(0, 0%, 100%, 0.75);
 }
@@ -61,7 +81,9 @@ input {
     color: hsl(179, 100%, 13%);
 }
 
-.button-sedans, .button-suvs, .button-luxury {
+.button-sedans,
+.button-suvs,
+.button-luxury {
     background-color: whitesmoke;
     border: 1px solid whitesmoke;
     border-radius: 25px;
