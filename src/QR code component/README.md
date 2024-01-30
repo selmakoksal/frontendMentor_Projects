@@ -12,6 +12,6 @@
 
 ## Images
 
-<img src="../../projectimages/qr-code.png">
+<img src="../../projectImages/qr-code.png">
 
 <hr>
