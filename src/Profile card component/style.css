@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+.attribution {
+    position: fixed;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.3;
+    padding: 0.5rem;
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 body {
     height: 25vh;
     background-color: hsl(185, 75%, 39%);
@@ -66,7 +86,8 @@ h3 {
     font-weight: 700;
 }
 
-p, span {
+p,
+span {
     color: hsl(0, 0%, 59%);
 }
 
@@ -100,7 +121,11 @@ img {
 }
 
 @media screen and (max-width:570px) {
-    main, .wrapper, .card-top, .main-card {
+
+    main,
+    .wrapper,
+    .card-top,
+    .main-card {
         width: 390px;
     }
 
