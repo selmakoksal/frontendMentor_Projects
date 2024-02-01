@@ -12,6 +12,6 @@
 
 ## Images
 
-<img src="../../projectimages/order-summary.png">
+<img src="../../projectImages/order-summary.png">
 
 <hr>
