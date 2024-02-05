@@ -23,3 +23,21 @@ body {
     transform: translate(-50%, -50%);
     box-shadow: hsl(217, 68%, 6%) 0px 20px 30px;
 }
+
+/* image settings start */
+.image {
+    position: relative;
+
+}
+
+.container-img {
+    width: 260px;
+    margin: 20px 20px 0 20px;
+    border-radius: 10px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background-color: hsl(178, 100%, 50%);
+}
+
+/* image settings end */
