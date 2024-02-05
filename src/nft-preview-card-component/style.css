@@ -9,3 +9,17 @@
 body {
     background-color: hsl(217, 54%, 11%);
 }
+
+.container {
+    display: flexbox;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: hsl(217, 68%, 6%) 0px 20px 30px;
+}
