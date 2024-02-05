@@ -63,6 +63,21 @@ body {
 
 /* image settings end */
 
+.content-head,
+.section-p>span {
+    color: hsl(0, 0%, 100%);
+}
+
+.content-p,
+.item-2>span,
+.section-p {
+    color: hsl(215, 51%, 70%);
+}
+
+.item-1>span {
+    color: hsl(178, 100%, 50%);
+}
+
 /* attribution settings start */
 .attribution {
     position: fixed;
