@@ -24,6 +24,12 @@ body {
     box-shadow: hsl(217, 68%, 6%) 0px 20px 30px;
 }
 
+.content {
+    margin-left: 7%;
+    margin-right: 7%;
+    align-items: center;
+}
+
 /* image settings start */
 .image {
     position: relative;
