@@ -94,6 +94,13 @@ body {
     margin-bottom: 1rem;
 }
 
+.item-1,
+.item-2 {
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
 .item-1>span {
     color: hsl(178, 100%, 50%);
     font-weight: 600;
