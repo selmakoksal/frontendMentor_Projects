@@ -94,6 +94,13 @@ body {
     margin-bottom: 1rem;
 }
 
+.content-head,
+.content-p,
+.items,
+.section {
+    margin-top: 1rem;
+}
+
 .item-1,
 .item-2 {
     display: flex;
