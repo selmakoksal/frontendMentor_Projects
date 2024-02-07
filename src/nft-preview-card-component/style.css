@@ -127,6 +127,13 @@ body {
     margin-right: 15px;
 }
 
+hr {
+    color: inherit;
+    border-color: rgb(75 85 99 / var(--tw-border-opacity));
+    opacity: 0.5;
+    height: 0;
+}
+
 /* attribution settings start */
 .attribution {
     position: fixed;
