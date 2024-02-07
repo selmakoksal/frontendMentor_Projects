@@ -134,6 +134,29 @@ hr {
     height: 0;
 }
 
+/* hover start */
+.container-img:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.view:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.content-head:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.section-p>span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+/* hover end */
+
 /* attribution settings start */
 .attribution {
     position: fixed;
