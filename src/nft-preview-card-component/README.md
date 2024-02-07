@@ -13,4 +13,6 @@
 
 <img src="../../projectImages/nft-preview.png">
 
+<img src="../../projectImages/nft-active1.png">
+
 <hr>
