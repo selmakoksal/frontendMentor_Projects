@@ -46,6 +46,23 @@ body {
     position: relative;
 }
 
+/* *************** Main *************** */
+main {
+    background-color: var(--White);
+    width: 50%;
+    padding: 1.2em 1.5em;
+    border-radius: 15px;
+    position: absolute;
+    top: 8%;
+    left: 17%;
+    transform: translate(17%, 8%);
+}
+
+.content-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
 
 
 
