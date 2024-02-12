@@ -1,2 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('../fonts/YoungSerif-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-Bold.ttf');
+    font-weight: 700;
+}
+
+/* *************** General *************** */
+body {
+    background-color: var(--Eggshell);
+    font-family: 'Ourfit';
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************** Attribution *************** */
+.attribution {
+    position: fixed;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.attribution a {
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution a:hover {
+    color: hsl(178, 100%, 50%);
+}
