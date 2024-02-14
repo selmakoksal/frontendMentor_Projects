@@ -16,17 +16,17 @@
 }
 
 @font-face {
-    font-family: 'YoungSerif';
+    font-family: young-serif;
     src: url('../recipe-page/assets/fonts/young-serif/YoungSerif-Regular.ttf');
 
-    font-family: 'Outfit';
+    font-family: outfit;
     src: url('../recipe-page/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
 }
 
 /* *************** General *************** */
 body {
     background-color: var(--Eggshell);
-    font-family: 'Outfit';
+    font-family: outfit;
     position: relative;
 }
 
@@ -47,9 +47,14 @@ main {
     border-radius: 15px;
 }
 
+.head,
+.img {
+    margin: 1em 0.8em;
+}
+
 .head h1 {
     color: var(--Dark-Charcoal);
-    font-family: 'YoungSerif';
+    font-family: young-serif;
     font-size: xx-large;
     margin: 0.7em 0 0.5em 0;
 }
@@ -57,12 +62,15 @@ main {
 .head p {
     font-size: 16px;
     margin: 1em 0 2em 0;
+    color: var(--Wenge-Brown);
 }
 
 .prepara {
     background-color: var(--Rose-White);
+    margin: 2em 0.8em;
     padding: 0.5em 1.5em 1em;
     border-radius: 10px;
+    color: var(--Wenge-Brown);
 }
 
 .prepara h3 {
@@ -77,20 +85,23 @@ main {
 
 .prepara ul li span,
 .instruct ol li span {
-    color: var(--Dark-Charcoal);
+    color: var(--Wenge-Brown);
     font-weight: 700;
     margin: 0 0 0 1em;
 }
 
 .ingred,
-.instruct {
-    margin: 2em 0;
+.instruct,
+.nutrition {
+    margin: 2em 0.8em;
+    color: var(--Wenge-Brown);
 }
 
 .ingred h2,
-.instruct h2 {
+.instruct h2,
+.nutrition h2 {
     color: var(--Nutmeg);
-    font-family: 'YoungSerif';
+    font-family: young-serif;
     margin: 0.8em 0;
 }
 
@@ -99,15 +110,27 @@ main {
     margin: 0.6em 1.5em;
 }
 
+.nutrition p {
+    font-size: 16px;
+    margin: 1em 0;
+}
 
+.nutrition table {
+    font-family: outfit;
+    border-collapse: collapse;
+    width: 100%;
+}
 
+.nutrition table td {
+    border-bottom: 1px solid var(--Light-Grey);
+    text-align: left;
+    padding: 10px 30px;
+}
 
-
-
-
-
-
-
+.nutrition table td:nth-child(2) {
+    color: var(--Nutmeg);
+    font-weight: 700;
+}
 
 /* *************** Attribution *************** */
 .attribution {
@@ -115,6 +138,8 @@ main {
     bottom: 0px;
     margin: auto;
     width: 100%;
+    background-color: var(--Eggshell);
+    --tw-bg-opacity: 0.3;
     padding: 0.5rem;
     text-align: center;
     --tw-text-opacity: 1;
@@ -125,9 +150,10 @@ main {
 }
 
 .attribution a {
-    color: hsl(215, 51%, 70%);
+    color: var(--Nutmeg);
+    text-decoration: none;
 }
 
 .attribution a:hover {
-    color: hsl(178, 100%, 50%);
+    color: var(--Dark-Raspberry);
 }
