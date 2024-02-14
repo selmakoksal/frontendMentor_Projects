@@ -91,25 +91,32 @@ main {
     margin: 0.5em 1em;
 }
 
-.prepara ul li span {
+.prepara ul li span,
+.instruct ol li span {
     color: var(--Dark-Charcoal);
     font-weight: 700;
     margin: 0 0 0 1em;
 }
 
-.ingred {
+.ingred,
+.instruct {
     margin: 2em 0;
 }
 
-.ingred h2 {
+.ingred h2,
+.instruct h2 {
     color: var(--Nutmeg);
     font-family: 'YoungSerif';
     margin: 0.8em 0;
 }
 
-.ingred ul li {
+.ingred ul li,
+.instruct ol li {
     margin: 0.6em 1.5em;
 }
+
+
+
 
 
 
