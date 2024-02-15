@@ -148,6 +148,13 @@ main {
     font-weight: 700;
 }
 
+/* *************** changing color of points *************** */
+li::marker {
+    color: var(--Nutmeg);
+    font-size: small;
+    font-weight: 700;
+}
+
 /* *************** Attribution *************** */
 .attribution {
     position: fixed;
