@@ -122,6 +122,11 @@ main {
     margin: 0.6em 1.5em;
 }
 
+.ingred ul li p,
+.instruct ol li p {
+    padding-left: 20px;
+}
+
 .nutrition p {
     margin: 1em 0;
 }
