@@ -32,14 +32,11 @@ body {
 
 /* *************** Main *************** */
 main {
-    background-color: var(--White);
-    width: 40%;
+    margin: 6em auto;
     padding: 1.2em 1.5em;
+    width: 40%;
+    background-color: var(--White);
     border-radius: 15px;
-    position: absolute;
-    top: 7%;
-    left: 21%;
-    transform: translate(21%, 7%);
 }
 
 .content-img {
