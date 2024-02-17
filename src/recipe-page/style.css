@@ -101,9 +101,15 @@ main {
 }
 
 .ingred,
+.instruct {
+    border-bottom: 1px solid var(--Light-Grey);
+    padding-bottom: 1.5em;
+}
+
+.ingred,
 .instruct,
 .nutrition {
-    margin: 2em 0.8em;
+    margin: 1.5em 0.8em;
     color: var(--Wenge-Brown);
 }
 
