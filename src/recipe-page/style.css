@@ -101,7 +101,7 @@ main {
 .ingred,
 .instruct,
 .nutrition {
-    margin: 1.5em 0.8em;
+    margin: 0em 0.8em;
     color: var(--Wenge-Brown);
 }
 
