@@ -145,6 +145,10 @@ main {
     font-weight: 700;
 }
 
+.nutrition table .border-none {
+    border-bottom: none;
+}
+
 /* *************** changing color of points *************** */
 li::marker {
     color: var(--Nutmeg);
