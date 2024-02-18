@@ -28,12 +28,12 @@ main {
     padding: 1.2em 1.5em;
     width: 40%;
     background-color: var(--White);
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .content-img {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .head,
