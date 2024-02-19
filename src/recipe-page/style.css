@@ -181,3 +181,57 @@ li::marker {
 .attribution a:hover {
     color: var(--Dark-Raspberry);
 }
+
+/* *************** Media Query *************** */
+@media screen and (max-width:600px) {
+    body {
+        position: relative;
+    }
+
+    main {
+        margin: 0 0;
+        padding: 0em 0em;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .head,
+    .ingred,
+    .instruct,
+    .nutrition {
+        padding: 0em 1.2em 1.2em 1.2em;
+    }
+
+    .prepara {
+        width: 84%;
+        margin-left: 8%;
+        margin-top: 0.8em;
+    }
+
+    .head,
+    .head p {
+        margin-bottom: 0;
+    }
+
+    .head p,
+    .prepara ul li,
+    .ingred ul li p,
+    .instruct ol li p,
+    .nutrition p,
+    .nutrition table td {
+        font-size: medium;
+    }
+
+    .img {
+        margin: 0;
+
+    }
+
+    .content-img {
+        border-radius: 0px;
+    }
+
+    .attribution {
+        visibility: hidden;
+    }
+}
