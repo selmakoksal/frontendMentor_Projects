@@ -42,3 +42,26 @@ main {
     width: 95%;
     border-radius: 50%;
 }
+
+/* *************** user-info *************** */
+.user-info {
+    text-align: center;
+}
+
+.name {
+    font-size: x-large;
+    font-weight: 500;
+    margin: 0.8em 0 0.3em;
+}
+
+.location {
+    font-size: small;
+    font-weight: 600;
+    margin-bottom: 1.8em;
+}
+
+.quote {
+    font-size: small;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+}
