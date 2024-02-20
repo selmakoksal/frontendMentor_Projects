@@ -23,3 +23,12 @@ body {
     font-family: 'Inter';
     position: relative;
 }
+
+/* *************** Main *************** */
+main {
+    width: 25%;
+    margin: 6em auto;
+    padding: 2em;
+    background-color: var(--Dark-Grey);
+    border-radius: 10px;
+}
