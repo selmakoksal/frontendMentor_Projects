@@ -32,3 +32,13 @@ main {
     background-color: var(--Dark-Grey);
     border-radius: 10px;
 }
+
+/* *************** img *************** */
+.user-info .img {
+    margin: 0.5em 6.4em;
+}
+
+.user-info .img img {
+    width: 95%;
+    border-radius: 50%;
+}
