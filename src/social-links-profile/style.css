@@ -68,3 +68,10 @@ main {
     color: var(--White);
     margin-bottom: 1.5em;
 }
+
+/* *************** social-buttons *************** */
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9em;
+}
