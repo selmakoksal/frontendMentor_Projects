@@ -90,3 +90,21 @@ main {
     color: var(--Dark-Grey);
     cursor: pointer;
 }
+
+/* *************** Attribution *************** */
+.attribution {
+    position: fixed;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    background-color: var(--Grey);
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--White);
+    font-size: small;
+}
+
+.attribution a {
+    color: var(--Green);
+    text-decoration: none;
+}
