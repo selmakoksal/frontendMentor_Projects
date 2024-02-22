@@ -108,3 +108,46 @@ main {
     color: var(--Green);
     text-decoration: none;
 }
+
+
+/* *************** Media *************** */
+@media screen and (max-width:600px) {
+    body {
+        position: relative;
+    }
+
+    main {
+        margin: 6em 1.3em 0;
+        padding: 1.2em 1.3em 1.3em;
+        width: 90%;
+    }
+
+    .user-info .img {
+        margin: 0 5.8em;
+    }
+
+    .user-info .img img {
+        width: 100%;
+    }
+
+    .user-info .name {
+        font-size: 21px;
+    }
+
+    .user-info .location {
+        font-size: 12px;
+    }
+
+    .user-info .quote {
+        font-size: 12px;
+    }
+
+    .social {
+        padding: 0.8em 0;
+        font-weight: 600;
+    }
+
+    .attribution {
+        visibility: hidden;
+    }
+}
