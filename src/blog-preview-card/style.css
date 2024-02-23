@@ -122,3 +122,40 @@ main {
 .attribution a:hover {
     color: var(--Black);
 }
+
+/* *************** Media *************** */
+@media screen and (max-width:600px) {
+    body {
+        position: relative;
+    }
+
+    main {
+        margin: 6em 2em 0;
+        padding: 1.2em 1.3em 1.3em;
+        width: 80%;
+    }
+
+    .bg-yellow {
+        font-size: x-small;
+        font-weight: 900;
+        width: 24%;
+        padding: 0.5em 1em;
+        margin: 1.5em 0 1em;
+    }
+
+    .date {
+        font-size: x-small;
+    }
+
+    .header {
+        font-size: large;
+    }
+
+    .descript {
+        font-size: small;
+    }
+
+    .attribution {
+        visibility: hidden;
+    }
+}
