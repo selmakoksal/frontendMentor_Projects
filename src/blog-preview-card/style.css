@@ -22,3 +22,14 @@ body {
     font-family: 'Figtree';
     position: relative;
 }
+
+/* *************** Main *************** */
+main {
+    width: 24%;
+    margin: 6em auto;
+    padding: 1.2em;
+    background-color: var(--White);
+    border: 1px solid var(--Black);
+    border-radius: 20px;
+    box-shadow: 8px 8px 1px 1px var(--Black);
+}
