@@ -78,3 +78,26 @@ main {
     color: var(--Grey);
     font-size: medium;
 }
+
+/* *************** Avatar *************** */
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.avatar .avatar-img {
+    width: 10%;
+    margin-right: 0.8em;
+}
+
+.avatar .avatar-img img {
+    width: 100%;
+}
+
+.avatar .name {
+    color: var(--Black);
+    font-weight: 800;
+    font-size: small;
+}
