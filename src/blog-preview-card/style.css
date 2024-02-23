@@ -15,3 +15,10 @@
     font-family: 'Figtree';
     src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
 }
+
+/* *************** General *************** */
+body {
+    background-color: var(--Yellow);
+    font-family: 'Figtree';
+    position: relative;
+}
