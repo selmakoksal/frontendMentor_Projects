@@ -43,3 +43,38 @@ main {
     width: 100%;
     border-radius: 10px;
 }
+
+/* *************** Content *************** */
+.bg-yellow {
+    color: var(--Black);
+    font-size: small;
+    font-weight: 800;
+    background-color: var(--Yellow);
+    width: 23%;
+    padding: 0.3em 0.8em;
+    margin: 1em 0;
+    border-radius: 3px;
+}
+
+.date {
+    color: var(--Black);
+    font-size: small;
+    font-weight: 600;
+}
+
+.header {
+    color: var(--Black);
+    font-size: x-large;
+    font-weight: 800;
+    margin: 0.7em 0;
+}
+
+.header:hover {
+    color: var(--Yellow);
+    cursor: pointer;
+}
+
+.descript {
+    color: var(--Grey);
+    font-size: medium;
+}
