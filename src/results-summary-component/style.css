@@ -57,3 +57,46 @@
     margin: 0;
     font: inherit;
 }
+
+/* *************** General *************** */
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Hanken';
+    font-size: var(--fs-400);
+    color: var(--clr-neutral-700);
+}
+
+.flex-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.grid-flow {
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+}
+
+.grid-flow[data-spacing="large"] {
+    gap: 2rem;
+}
+
+.result-summary {
+    --padding: 2.5rem;
+    --border-radius: 2rem;
+
+    max-width: 46rem;
+    display: grid;
+}
+
+.section-title {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-600);
+}
