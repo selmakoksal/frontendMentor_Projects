@@ -141,3 +141,28 @@ body {
     margin-left: 1rem;
     text-decoration: line-through;
 }
+
+/* *************** Button *************** */
+.button {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    padding: .9rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: calc(var(--border-radius) * .6);
+    cursor: pointer;
+}
+
+.card-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: .3rem;
+}
+
+.button:hover {
+    background-color: var(--dark-green);
+}
