@@ -207,3 +207,38 @@ body {
         border-radius: var(--border-radius) 0 0 var(--border-radius);
     }
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        min-height: 100vh;
+        min-width: 110vw;
+        display: grid;
+        place-items: center;
+    }
+
+    .container {
+        margin: 3rem 1.5rem;
+        max-width: 50rem;
+        border-radius: var(--border-radius);
+    }
+
+    img {
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+    }
+
+    .info {
+        margin-top: 0.4rem;
+    }
+
+    .h1-title {
+        margin: 0;
+    }
+
+    .price-group {
+        margin: 0.4rem 0 0.2rem;
+    }
+
+    .attribution {
+        visibility: hidden;
+    }
+}
