@@ -30,3 +30,48 @@
     margin: 0;
     font: inherit;
 }
+
+/* *************** General *************** */
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--dark-grayish-blue);
+    background-color: var(--cream);
+}
+
+.flex-group {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.grid-flow {
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+}
+
+.container {
+    --padding: 1.5rem;
+    --border-radius: .8rem;
+
+    margin: 6rem;
+    max-width: 37.5rem;
+    display: grid;
+
+    background-color: var(--white);
+}
+
+.img {
+    border-radius:
+        var(--border-radius) 0 0 var(--border-radius);
+}
