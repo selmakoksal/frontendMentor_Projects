@@ -18,3 +18,45 @@
   color: inherit;
   margin: 0;
 }
+
+/* *************** General *************** */
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: var(--stat-headings);
+  background-color: var(--main-bg);
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.flex-group {
+  display: flex;
+  justify-content: start;
+  gap: 4.2rem;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin: 6rem;
+  max-width: 56rem;
+  display: grid;
+  border-radius: calc(var(--border-radius)*.5);
+  flex-direction: row;
+  background-color: var(--card-bg);
+}
+
+.content {
+  padding: calc(var(--padding)*1.5) calc(var(--padding)*3.8) calc(var(--padding)*2) calc(var(--padding)*2.5);
+}
