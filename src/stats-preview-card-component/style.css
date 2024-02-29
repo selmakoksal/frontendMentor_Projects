@@ -98,3 +98,28 @@ p {
   font-style: normal;
   text-transform: uppercase;
 }
+
+/* *************** Image *************** */
+.img-section {
+  border-radius:
+    0 calc(var(--border-radius)*.5) calc(var(--border-radius)*.5) 0;
+  background-color: var(--accent);
+  isolation: isolate;
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+  border-radius:
+    0 calc(var(--border-radius)*.5) calc(var(--border-radius)*.5) 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  opacity: .8;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
