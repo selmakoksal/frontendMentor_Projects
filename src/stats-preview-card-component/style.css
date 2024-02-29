@@ -123,3 +123,18 @@ img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
+/* *************** Attribution *************** */
+.attribution {
+  bottom: 0px;
+  margin: auto;
+  position: fixed;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+
+  a {
+    color: var(--main-paragraph);
+    text-decoration: none;
+  }
+}
