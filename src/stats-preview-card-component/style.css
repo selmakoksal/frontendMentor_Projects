@@ -60,3 +60,20 @@ main {
 .content {
   padding: calc(var(--padding)*1.5) calc(var(--padding)*3.8) calc(var(--padding)*2) calc(var(--padding)*2.5);
 }
+
+/* *************** Content *************** */
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--main-heading-stats);
+}
+
+h1 span {
+  color: var(--accent);
+}
+
+p {
+  color: var(--stat-headings);
+  font-size: small;
+  margin: 1.8rem .8rem 1.8rem 0;
+}
