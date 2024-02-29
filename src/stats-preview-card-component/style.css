@@ -77,3 +77,24 @@ p {
   font-size: small;
   margin: 1.8rem .8rem 1.8rem 0;
 }
+
+/* *************** Stats *************** */
+.stats {
+  font-weight: 700;
+  font-size: large;
+  color: var(--main-heading-stats);
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: start;
+  gap: 4.2rem;
+}
+
+.stats .stats-item span {
+  color: var(--stat-headings);
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-size: x-small;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
