@@ -91,3 +91,32 @@ body {
 .star {
     margin-bottom: calc(var(--margin)*.5);
 }
+
+/* *************** Avatar *************** */
+.avatar {
+    color: var(--white);
+    background-color: var(--very-dark-magenta);
+    padding: calc(var(--padding)*1.2);
+    border-radius: calc(var(--border-radius)*.5);
+}
+
+.avatar-info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: calc(var(--margin)*1.5);
+    align-items: center;
+}
+
+.avatar-info img {
+    width: 15%;
+    border-radius: calc(var(--border-radius)*6);
+}
+
+.avatar-info p {
+    color: var(--soft-pink);
+    margin-top: calc(var(--margin)*.4);
+}
+
+.comment {
+    line-height: 130%;
+}
