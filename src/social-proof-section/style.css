@@ -120,3 +120,22 @@ body {
 .comment {
     line-height: 130%;
 }
+
+/* *************** Attribution *************** */
+.attribution {
+    bottom: 0px;
+    margin: auto;
+    position: fixed;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--dark-grayish-magenta);
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.4;
+    width: 100%;
+
+    a {
+        color: var(--very-dark-magenta);
+        text-decoration: none;
+    }
+}
