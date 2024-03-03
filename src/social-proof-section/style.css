@@ -46,3 +46,32 @@ body {
     display: grid;
     gap: 1rem;
 }
+
+/* *************** Header *************** */
+.header {
+    margin-bottom: var(--margin);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-info {
+    width: 100%;
+    margin-bottom: var(--margin);
+}
+
+.header-info h1 {
+    width: 100%;
+    color: var(--very-dark-magenta);
+    font-size: 2.6em;
+    padding-bottom: var(--padding);
+    line-height: 80%;
+}
+
+.header-info p {
+    width: 100%;
+    font-size: 16.5px;
+    font-weight: 500;
+    color: var(--dark-grayish-magenta);
+    line-height: 140%;
+}
