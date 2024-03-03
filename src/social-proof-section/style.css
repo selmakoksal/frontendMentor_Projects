@@ -75,3 +75,19 @@ body {
     color: var(--dark-grayish-magenta);
     line-height: 140%;
 }
+
+/* *************** Rate-Star *************** */
+.rate {
+    display: block;
+    text-align: center;
+    padding: .8rem 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    border-radius: calc(var(--border-radius)*.5);
+    color: var(--very-dark-magenta);
+    background-color: var(--light-grayish-magenta);
+}
+
+.star {
+    margin-bottom: calc(var(--margin)*.5);
+}
