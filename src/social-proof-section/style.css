@@ -139,3 +139,35 @@ body {
         text-decoration: none;
     }
 }
+
+/* *************** Media *************** */
+@media (min-width: 992px) {
+
+    /* *************** Desktop Version *************** */
+    body {
+        background-image:
+            url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+        background-position: right 55vw bottom 55vh, left 30vw top 10vh;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+
+    }
+
+    .grid-flow,
+    .avatar-info,
+    .rate {
+        display: flex;
+        align-content: start;
+        gap: 1rem;
+    }
+
+    .container {
+        margin: calc(var(--margin)*10);
+    }
+}
