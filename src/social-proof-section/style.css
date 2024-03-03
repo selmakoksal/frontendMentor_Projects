@@ -20,3 +20,29 @@
     color: inherit;
     margin: calc(var(--margin)*0);
 }
+
+/* *************** General *************** */
+/* *************** General *************** */
+body {
+    background-image:
+        url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+    background-position: right 0vw bottom 65vh, left 30vw top 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat no-repeat;
+    background-attachment: fixed;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    margin: calc(var(--margin)*5) calc(var(--margin)*2);
+}
+
+.grid-flow {
+    display: grid;
+    gap: 1rem;
+}
