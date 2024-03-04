@@ -211,21 +211,31 @@ body {
 
     /* *************** Avatar *************** */
     .customer {
-        gap: 0;
+        gap: 1.8rem;
+    }
+
+    .avatar {
+        padding: calc(var(--padding)*1.8) calc(var(--padding)*1.5);
     }
 
     .avatar-info img {
-        width: 15%;
-    }
-
-    .colton,
-    .irene,
-    .anne {
-        margin-bottom: 0;
-        margin-top: 1rem;
+        width: 13%;
     }
 
     .comment {
-        line-height: 130%;
+        line-height: 160%;
+    }
+
+    .colton {
+        margin-bottom: calc(var(--margin)*2);
+    }
+
+    .irene {
+        margin-top: var(--margin);
+        margin-bottom: var(--margin);
+    }
+
+    .anne {
+        margin-top: calc(var(--margin)*2);
     }
 }
