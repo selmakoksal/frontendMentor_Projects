@@ -208,4 +208,24 @@ body {
     .star {
         margin-bottom: calc(var(--margin)*.5);
     }
+
+    /* *************** Avatar *************** */
+    .customer {
+        gap: 0;
+    }
+
+    .avatar-info img {
+        width: 15%;
+    }
+
+    .colton,
+    .irene,
+    .anne {
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+
+    .comment {
+        line-height: 130%;
+    }
 }
