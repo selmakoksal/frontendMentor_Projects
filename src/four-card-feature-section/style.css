@@ -40,7 +40,7 @@ body {
 }
 
 .grid-flow,
-.divs-group {
+.cards-group {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -73,4 +73,63 @@ header p {
   color: var(--grayish-blue);
   width: 90%;
   margin-left: 5%;
+}
+
+/* *************** Cards *************** */
+.card {
+  border-radius: calc(var(--border-radius)*.5);
+  box-shadow: 0em .1em 3em var(--grayish-blue);
+  width: 350px;
+  height: 230px;
+  position: relative;
+}
+
+.supervisor-info {
+  border: .3em var(--cyan);
+  border-style: solid none none none;
+  border-radius: calc(var(--border-radius)*.5);
+  padding: calc(var(--padding)*1.8);
+}
+
+.team-info {
+  border: .3em var(--red);
+  border-style: solid none none none;
+  border-radius: calc(var(--border-radius)*.5);
+  padding: calc(var(--padding)*1.8);
+}
+
+.karma-info {
+  border: .3em var(--orange);
+  border-style: solid none none none;
+  border-radius: calc(var(--border-radius)*.5);
+  padding: calc(var(--padding)*1.8);
+}
+
+.calc-info {
+  border: .3em var(--blue);
+  border-style: solid none none none;
+  border-radius: calc(var(--border-radius)*.5);
+  padding: calc(var(--padding)*1.8);
+}
+
+.card h3 {
+  color: var(--very-dark-blue);
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: calc(var(--margin)*.5);
+}
+
+.card p {
+  color: var(--grayish-blue);
+  font-size: small;
+  line-height: 180%;
+  margin-bottom: calc(var(--margin)*2);
+}
+
+.card img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+  width: 60px;
 }
