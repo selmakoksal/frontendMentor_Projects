@@ -24,3 +24,25 @@
   color: inherit;
   margin: calc(var(--margin)*0);
 }
+
+/* *************** General *************** */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin: calc(var(--margin)*5) calc(var(--margin)*1);
+}
+
+.grid-flow,
+.divs-group {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
