@@ -46,3 +46,31 @@ body {
   align-items: center;
   gap: 1.5rem;
 }
+
+/* *************** Header *************** */
+header {
+  margin-bottom: var(--margin);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: calc(var(--margin)*3.5);
+}
+
+header h2 {
+  color: var(--very-dark-blue);
+}
+
+header .light {
+  font-weight: 200;
+}
+
+header .bold {
+  font-weight: 600;
+  margin-bottom: var(--margin);
+}
+
+header p {
+  color: var(--grayish-blue);
+  width: 90%;
+  margin-left: 5%;
+}
