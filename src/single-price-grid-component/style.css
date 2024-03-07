@@ -45,3 +45,24 @@ body {
 .flex-group {
     display: grid;
 }
+
+/* *************** Bg-White Content *************** */
+.bg-white {
+    background-color: var(--white);
+    padding: calc(var(--padding)*1);
+}
+
+.bg-white h3 {
+    color: var(--cyan);
+    margin-bottom: calc(var(--margin)*1);
+}
+
+.bg-white h4 {
+    color: var(--bright-yellow);
+    margin-bottom: calc(var(--margin)*1);
+}
+
+.bg-white p {
+    font-size: small;
+    line-height: 180%;
+}
