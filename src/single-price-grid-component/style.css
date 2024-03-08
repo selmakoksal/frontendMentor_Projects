@@ -98,3 +98,17 @@ body {
     font-weight: 700;
     font-size: medium;
 }
+
+/* *************** Bg-Cyan Content *************** */
+.bg-cyan {
+    background-color: var(--cyan);
+    color: var(--light-gray);
+    padding: calc(var(--padding)*1);
+    border-radius: 0 0 calc(var(--border-radius)*.2) calc(var(--border-radius)*.2);
+}
+
+.bg-cyan p {
+    font-size: small;
+    line-height: 150%;
+    margin-top: calc(var(--margin)*.8);
+}
