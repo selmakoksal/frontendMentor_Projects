@@ -66,3 +66,35 @@ body {
     font-size: small;
     line-height: 180%;
 }
+
+/* *************** Bg-Dark-Cyan Content *************** */
+.bg-dark-cyan {
+    background-color: var(--dark-cyan);
+    color: var(--light-gray);
+    padding: calc(var(--padding)*1);
+}
+
+.bg-dark-cyan .grid-group {
+    display: flex;
+    margin-top: calc(var(--margin)*.8);
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.bg-dark-cyan .grid-group span {
+    font-size: medium;
+    font-weight: 400;
+    color: var(--light-gray);
+    padding: calc(var(--padding)*.5);
+}
+
+.bg-dark-cyan button {
+    background-color: var(--bright-yellow);
+    width: 100%;
+    padding: calc(var(--padding)*.6) 0;
+    margin-top: calc(var(--margin)*1.2);
+    border-radius: calc(var(--border-radius)*.2);
+    border-style: none;
+    font-weight: 700;
+    font-size: medium;
+}
