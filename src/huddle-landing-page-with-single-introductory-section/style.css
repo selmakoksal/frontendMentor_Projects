@@ -133,6 +133,8 @@ span:hover,
 }
 
 @media (max-width:768px) {
+
+    /* *************** mobile general *************** */
     body {
         background-image: url(./images/bg-mobile.svg);
         background-size: contain;
@@ -162,5 +164,22 @@ span:hover,
         .illustration img {
             width: 100%;
         }
+    }
+
+    /* *************** mobile content *************** */
+    .content {
+        text-align: center;
+    }
+
+    .content h1 {
+        margin-right: calc(var(--margin)*0);
+        margin-bottom: calc(var(--margin)*1.5);
+        font-size: x-large;
+    }
+
+    .content button {
+        width: 40%;
+        font-size: small;
+        padding: calc(var(--padding)*.8) calc(var(--padding)*3);
     }
 }
