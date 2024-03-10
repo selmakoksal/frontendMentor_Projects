@@ -43,3 +43,14 @@ body {
 .logo-section .logo {
     width: 15%;
 }
+
+/* *************** flex-group *************** */
+.flex-group {
+    margin-top: calc(var(--margin)*6.5);
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+
+    .illustration img {
+        width: 95%;
+    }
+}
