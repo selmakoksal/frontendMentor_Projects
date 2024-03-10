@@ -38,3 +38,8 @@ body {
 .container {
     margin: calc(var(--margin)*3) calc(var(--margin)*4);
 }
+
+/* *************** Logo *************** */
+.logo-section .logo {
+    width: 15%;
+}
