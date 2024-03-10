@@ -37,6 +37,10 @@ body {
 
 .container {
     margin: calc(var(--margin)*3) calc(var(--margin)*4);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90vh;
 }
 
 /* *************** Logo *************** */
@@ -46,7 +50,7 @@ body {
 
 /* *************** flex-group *************** */
 .flex-group {
-    margin-top: calc(var(--margin)*6.5);
+    margin-top: calc(var(--margin)*6);
     display: grid;
     grid-template-columns: 1.8fr 1fr;
 
@@ -86,4 +90,5 @@ body {
 .content button:hover {
     background-color: var(--soft-magenta);
     color: white;
+    cursor: pointer;
 }
