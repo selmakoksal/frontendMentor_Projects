@@ -92,3 +92,27 @@ body {
     color: white;
     cursor: pointer;
 }
+
+/* *************** Icons *************** */
+.icons {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.fa-brands {
+    padding: var(--padding);
+    border: solid .1rem white;
+    border-radius: calc(var(--border-radius)*3);
+}
+
+.fa-facebook-f {
+    padding: var(--padding) calc(var(--padding)*1.2);
+}
+
+span:hover,
+.fa-brands:hover {
+    color: var(--soft-magenta);
+    border-color: var(--soft-magenta);
+    cursor: pointer;
+}
