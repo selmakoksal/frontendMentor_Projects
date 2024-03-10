@@ -131,3 +131,36 @@ span:hover,
 .attribution a {
     text-decoration: none;
 }
+
+@media (max-width:768px) {
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-size: contain;
+        background-position: top;
+        background-attachment: local;
+    }
+
+    .container {
+        margin: calc(var(--margin)*2);
+        align-items: center;
+    }
+
+    .logo-section {
+        width: 100%;
+
+        .logo {
+            width: 40%;
+        }
+    }
+
+    .flex-group {
+        margin: calc(var(--margin)*3) calc(var(--margin)*0);
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+
+        .illustration img {
+            width: 100%;
+        }
+    }
+}
