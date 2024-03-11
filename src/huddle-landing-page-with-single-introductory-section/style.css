@@ -203,4 +203,8 @@ span:hover,
     .fa-facebook-f {
         padding: calc(var(--padding)*.5) calc(var(--padding)*.7);
     }
+
+    .attribution {
+        visibility: hidden;
+    }
 }
