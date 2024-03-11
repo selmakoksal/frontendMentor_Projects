@@ -182,4 +182,25 @@ span:hover,
         font-size: small;
         padding: calc(var(--padding)*.8) calc(var(--padding)*3);
     }
+
+    /* *************** mobile icons *************** */
+    .icons {
+        justify-content: center;
+        gap: .8rem;
+        margin-bottom: calc(var(--margin)*2);
+    }
+
+    span {
+        width: 30%;
+    }
+
+    .fa-brands {
+        padding: calc(var(--padding)*.5) calc(var(--padding)*.6);
+        width: 30%;
+        border-radius: 50%;
+    }
+
+    .fa-facebook-f {
+        padding: calc(var(--padding)*.5) calc(var(--padding)*.7);
+    }
 }
