@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-    margin: calc(var(--margin)*3) calc(var(--margin)*4);
+    margin: calc(var(--margin)*3) calc(var(--margin)*5);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -45,14 +45,14 @@ body {
 
 /* *************** Logo *************** */
 .logo-section .logo {
-    width: 15%;
+    width: 20%;
 }
 
 /* *************** flex-group *************** */
 .flex-group {
-    margin-top: calc(var(--margin)*6);
+    margin-top: calc(var(--margin)*2);
     display: grid;
-    grid-template-columns: 1.8fr 1fr;
+    grid-template-columns: 1.6fr 1fr;
 
     .illustration img {
         width: 95%;
@@ -68,6 +68,7 @@ body {
 .content h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    font-size: xx-large;
     font-style: normal;
     margin-right: calc(var(--margin)*2);
     margin-bottom: calc(var(--margin)*1.5);
