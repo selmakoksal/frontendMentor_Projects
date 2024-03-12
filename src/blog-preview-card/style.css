@@ -21,6 +21,9 @@ body {
     background-color: var(--Yellow);
     font-family: 'Figtree';
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* *************** Main *************** */
