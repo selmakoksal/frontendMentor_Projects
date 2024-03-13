@@ -52,3 +52,20 @@ main {
   gap: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
+/* *************** Personal Design *************** */
+.daniel {
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 6rem;
+  background-color: var(--moderate-violet);
+  color: var(--light-grayish-blue);
+
+  .parag {
+    color: var(--parag-color);
+  }
+
+  span {
+    color: var(--span-color);
+  }
+}
