@@ -82,3 +82,20 @@ main {
     color: var(--span-color);
   }
 }
+
+.jeanette {
+  background-color: var(--light-grayish-blue);
+  color: var(--very-dark-blackish-blue);
+
+  .name {
+    color: var(--very-dark-blackish-blue);
+  }
+
+  .parag {
+    color: var(--bg-white-parag);
+  }
+
+  span {
+    color: var(--name-color);
+  }
+}
