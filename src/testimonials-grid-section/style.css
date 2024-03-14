@@ -99,3 +99,16 @@ main {
     color: var(--name-color);
   }
 }
+
+.patrick {
+  background-color: var(--very-dark-blackish-blue);
+  color: var(--white);
+
+  .parag {
+    color: var(--parag-color);
+  }
+
+  span {
+    color: var(--span-color);
+  }
+}
