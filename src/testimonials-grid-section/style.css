@@ -53,10 +53,6 @@ main {
   margin-bottom: 1.5rem;
 }
 
-.flex-group:last-of-type {
-  margin-bottom: 0;
-}
-
 /* *************** Personal Design *************** */
 .daniel {
   background-image: url(./images/bg-pattern-quotation.svg);
