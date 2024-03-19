@@ -60,3 +60,40 @@ main {
   width: 20rem;
   border-radius: .5rem;
 }
+
+/* *************** Icon-Card *************** */
+.icon-card {
+  border-radius: .5rem 6rem .5rem .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logo {
+  width: 50%;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.document,
+.folder,
+.upload {
+  background-color: var(--icon-bg);
+  border-radius: .5rem;
+}
+
+.document {
+  padding: .8rem;
+}
+
+.folder {
+  padding: .9rem .8rem;
+}
+
+.upload {
+  padding: 1rem .8rem;
+}
