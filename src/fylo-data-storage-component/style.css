@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --slider-color1: hsl(6, 100%, 80%);
+  --slider-color2: hsl(335, 100%, 65%);
+
+  --text-gb: hsl(243, 100%, 93%);
+  --text: hsl(229, 7%, 55%);
+  --card-bg: hsl(228, 56%, 26%);
+  --icon-bg: hsl(229, 57%, 11%);
+
+  --slider: linear-gradient(to right, var(--slider-color1), var(--slider-color2));
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: inherit;
+  margin: 0;
+}
