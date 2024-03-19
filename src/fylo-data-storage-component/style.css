@@ -166,3 +166,26 @@ main {
   top: 50%;
   transform: translateY(-50%);
 }
+
+/* storage left */
+.storage-left {
+  background-color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .8rem 1.2rem;
+  border-radius: .5rem;
+  position: absolute;
+  top: 80%;
+
+  h1 {
+    color: var(--icon-bg);
+  }
+
+  p {
+    color: var(--text);
+    font-size: small;
+  }
+}
