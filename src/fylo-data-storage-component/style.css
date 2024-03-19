@@ -97,3 +97,20 @@ main {
 .upload {
   padding: 1rem .8rem;
 }
+
+/* *************** Storage-Div *************** */
+.storage-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.parag {
+  font-size: 14px;
+
+  span {
+    font-weight: 700;
+  }
+}
