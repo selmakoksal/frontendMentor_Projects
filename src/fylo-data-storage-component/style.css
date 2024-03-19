@@ -114,3 +114,55 @@ main {
     font-weight: 700;
   }
 }
+
+/* progress bar */
+.slider-div {
+  width: 100%;
+  height: 1.2rem;
+  padding: .2rem;
+  background-color: var(--icon-bg);
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.slider-div::before {
+  content: "0 GB";
+  color: var(--text-gb);
+  position: absolute;
+  bottom: -100%;
+  font-size: 12px;
+  font-weight: 700;
+  left: 0;
+}
+
+.slider-div::after {
+  content: "1000 GB";
+  color: var(--text-gb);
+  position: absolute;
+  bottom: -100%;
+  font-size: 12px;
+  font-weight: 700;
+  right: 0;
+}
+
+.progress {
+  height: 100%;
+  width: 81.5%;
+  border-radius: 1rem;
+  background-image: var(--slider);
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: .6rem;
+  height: .6rem;
+  border-radius: 50%;
+  background-color: var(--text-gb);
+  position: absolute;
+  right: .1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
