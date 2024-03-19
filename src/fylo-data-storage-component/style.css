@@ -189,3 +189,19 @@ main {
     font-size: small;
   }
 }
+
+/* *************** Attribution *************** */
+.attribution {
+  position: fixed;
+  bottom: 0px;
+  margin: auto;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: small;
+  color: wheat;
+}
+
+.attribution a {
+  text-decoration: none;
+}
