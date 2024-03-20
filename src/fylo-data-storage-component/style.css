@@ -245,4 +245,15 @@ main {
     right: 5%;
     width: 30%;
   }
+
+  .storage-left::before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    border: 15px solid white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(45deg);
+  }
 }
