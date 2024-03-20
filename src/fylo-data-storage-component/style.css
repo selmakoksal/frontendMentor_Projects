@@ -205,3 +205,44 @@ main {
 .attribution a {
   text-decoration: none;
 }
+
+/* *************** Media Desktop Design *************** */
+@media (min-width:992px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-desktop.png);
+    background-position: right bottom;
+    background-size: 100% 50%;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main {
+    flex-direction: row;
+  }
+
+  .container {
+    flex-direction: row;
+    margin-top: 0;
+    width: 70rem;
+  }
+
+  .icon-card {
+    height: 12rem;
+  }
+
+  .storage-div {
+    width: 40rem;
+    height: 10rem;
+    margin-top: 2rem;
+    align-items: start;
+  }
+
+  .storage-left {
+    top: -20%;
+    right: 5%;
+    width: 30%;
+  }
+}
