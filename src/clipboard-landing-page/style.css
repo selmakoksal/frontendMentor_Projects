@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --button-bg1: hsl(171, 66%, 44%);
+    --button-bg2: hsl(233, 100%, 69%);
+    --text-h: hsl(210, 10%, 33%);
+    --text-p: hsl(201, 11%, 66%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
