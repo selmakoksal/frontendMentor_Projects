@@ -8,18 +8,23 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
 
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
   <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 
 <body>
-  <main>
+  <main class="flex">
     <section class="sec1">
       <div class="header">
         <img src="./images/logo.svg" alt="logo">
         <h1>A history of everything you copy</h1>
         <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your
           devices.</p>
-        <div class="flex-group buttons start">
+        <div class="grid-group buttons start flex">
           <button class="button1">Download for iOS</button>
           <button class="button2">Download for Mac</button>
         </div>
@@ -30,11 +35,11 @@
           on all your devices. Our Mac and iOS apps will help you organize everything.</p>
       </div>
     </section>
-    <section class="sec2 flex-group">
+    <section class="sec2 grid-group">
       <div class="comp">
         <img src="./images/image-computer.png" alt="computer">
       </div>
-      <div class="content">
+      <div class="content flex">
         <div>
           <h4>Quick Search</h4>
           <p>Easily search your snippets by content, category, web address, application, and more.</p>
@@ -63,7 +68,7 @@
         <p>We’ve got the tools to boost your productivity.</p>
       </div>
     </section>
-    <section class="sec4 flex-group">
+    <section class="sec4 grid-group flex">
       <div>
         <img src="./images/icon-blacklist.svg" alt="blacklist">
         <h4>Create blacklists</h4>
@@ -80,7 +85,7 @@
         <p>Quick preview of all snippets on your Clipboard for easy access.</p>
       </div>
     </section>
-    <section class="sec5 flex-group">
+    <section class="sec5 grid-group flex">
       <div><img src="./images/logo-google.png" alt="google"></div>
       <div><img src="./images/logo-ibm.png" alt="ibm"></div>
       <div><img src="./images/logo-microsoft.png" alt="microsoft"></div>
@@ -91,22 +96,26 @@
       <h3>Clipboard for iOS and Mac OS</h3>
       <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding
         to your clipboard.</p>
-      <div class="flex-group buttons">
+      <div class="grid-group buttons flex">
         <button class="button1">Download for iOS</button>
         <button class="button2">Download for Mac</button>
       </div>
     </section>
-    <section class="sec7 flex-group">
+    <section class="sec7 grid-group flex">
       <div class="logo">
         <img src="./images/logo.svg" alt="logo">
       </div>
-      <div class="list">
+      <div class="list flex">
         <div>
-          <p class="faq">FAQs</p>
+          <p>FAQs</p>
+        </div>
+        <div>
           <p>Contact Us</p>
         </div>
         <div>
-          <p class="priv">Privacy Policy</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div>
           <p>Press Kit</p>
         </div>
         <div>
@@ -115,9 +124,12 @@
         <div></div>
       </div>
       <div class="social-icons">
-        <img src="./images/icon-facebook.svg" alt="facebook">
-        <img src="./images/icon-twitter.svg" alt="twitter">
-        <img src="./images/icon-instagram.svg" alt="instagram">
+        <span>
+          <i class="fa-brands fa-facebook-f"></i></span>
+        <span>
+          <i class="fa-brands fa-twitter"></i></span>
+        <span>
+          <i class="fa-brands fa-instagram"></i></span>
       </div>
     </section>
     <footer>
