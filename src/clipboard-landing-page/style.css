@@ -70,3 +70,34 @@ main {
 .button2:hover {
     background-color: hsla(233, 100%, 69%, .75);
 }
+
+/* *************** sec1 *************** */
+.header img {
+    width: 100px;
+}
+
+.header h1 {
+    color: var(--text-h);
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 3rem 0 1.5rem;
+}
+
+.header p,
+.sec1 div p,
+.content p,
+.sec4 p,
+.sec6 p {
+    line-height: 150%;
+}
+
+.start {
+    margin: 2rem 0 7rem;
+}
+
+.sec1 div h3 {
+    color: var(--text-h);
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
