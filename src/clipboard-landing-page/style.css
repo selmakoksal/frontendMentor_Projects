@@ -101,3 +101,24 @@ main {
     font-weight: 600;
     margin-bottom: 1rem;
 }
+
+/* *************** sec2 *************** */
+.comp img {
+    width: 100%;
+}
+
+.content {
+    gap: 2rem;
+    margin: 3rem 2rem 5rem;
+}
+
+.content h4 {
+    color: var(--text-h);
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.content p {
+    font-size: small;
+}
