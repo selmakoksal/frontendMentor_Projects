@@ -150,3 +150,12 @@ main {
 .sec4 img {
     width: 12%;
 }
+
+/* *************** sec5 *************** */
+.sec5 {
+    gap: 4rem;
+}
+
+.sec5 img {
+    width: 70%;
+}
