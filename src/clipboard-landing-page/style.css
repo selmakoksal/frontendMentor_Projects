@@ -176,3 +176,33 @@ main {
     font-size: medium;
     line-height: 150%;
 }
+
+/* *************** sec7 *************** */
+.sec7 {
+    gap: 1rem;
+}
+
+.list {
+    gap: 1rem;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.list div {
+    cursor: pointer;
+}
+
+.list div:hover,
+.sec7 .social-icons i:hover {
+    color: var(--button-bg1);
+}
+
+.sec7 .logo img {
+    width: 40%;
+}
+
+.sec7 .social-icons {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
