@@ -134,3 +134,19 @@ main {
     width: 100%;
     margin: 3rem 0 5rem;
 }
+
+/* *************** sec4 *************** */
+.sec4 {
+    margin: 2rem 0;
+    gap: 3rem;
+}
+
+.sec4 h4 {
+    color: var(--text-h);
+    font-size: large;
+    margin: 2rem 0 1rem;
+}
+
+.sec4 img {
+    width: 12%;
+}
