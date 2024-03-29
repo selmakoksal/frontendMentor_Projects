@@ -159,3 +159,20 @@ main {
 .sec5 img {
     width: 70%;
 }
+
+/* *************** sec6 *************** */
+.sec6 {
+    margin: 3rem 0 5rem;
+}
+
+.sec6 h3 {
+    color: var(--text-h);
+    font-size: x-large;
+    margin: 0 1rem;
+}
+
+.sec6 p {
+    margin: 1rem 0 2.5rem;
+    font-size: medium;
+    line-height: 150%;
+}
