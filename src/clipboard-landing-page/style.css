@@ -206,3 +206,36 @@ main {
     justify-content: space-between;
     cursor: pointer;
 }
+
+/* *************** buttons *************** */
+.buttons {
+    align-items: center;
+    gap: 1rem;
+}
+
+.button1,
+.button2 {
+    width: 100%;
+    height: 2.5rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: var(--button-bg1);
+}
+
+.button1:hover {
+    background-color: hsla(171, 66%, 44%, .75);
+}
+
+.button2 {
+    background-color: var(--button-bg2);
+}
+
+.button2:hover {
+    background-color: hsla(233, 100%, 69%, .75);
+}
